@@ -11,7 +11,7 @@ public class Dog extends Pet {
 
     public Dog() {
         super("Max", 1);
-        this.breed = "labrador";
+        this.breed = "Mixed";
     }
     
 
@@ -32,7 +32,7 @@ public class Dog extends Pet {
         return this.breed;
     }
     // Setter
-    public void setBreed() {
+    public void setBreed(String breed) {
         if (breed.trim().length() != 0) {
             this.breed = breed;
         }
